@@ -1,0 +1,81 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #3da6b871;
+    background-image: url(https://wac-cdn.atlassian.com/dam/jcr:02dd07fc-50cf-4e8f-b7df-f337c05040ea/Growing@2x.png?cdnVersion=1180);
+    background-repeat: repeat;
+    background-size: 350px 120px;
+}
+
+.contenedor{
+    display: flex;
+    padding: 30px;
+}
+
+.div-1 {
+    box-sizing: border-box;
+    padding: 30px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 15px;
+    max-width: 600px;
+    margin: auto;
+}
+
+.div-2 {
+    box-sizing: border-box;
+    padding: 30px;
+    background-color: aquamarine;
+    border-radius: 15px;
+    max-width: 600px;
+    margin-left: 15px;
+    text-align: justify;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+th,
+td {
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid #000000;
+    padding: 6px;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.temaPrincipal {
+    font-size: bold;
+    background-color: rgb(85, 236, 236);
+
+}
+
+.tema {
+    font-size: bold;
+    background-color: rgb(160, 243, 243);
+}
+
+h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15 px;
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:larger;
+    background-color: azure;
+}
+
+header {
+    text-align: center;
+    font-family: 'Trebuchet MS';
+}
